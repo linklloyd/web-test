@@ -1,0 +1,114 @@
+
+
+body {
+    background-color:rgb(215, 241, 204);
+}
+    /* Testing comment CSS*/
+
+  .buttonanimation {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #0eb408;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .buttonanimation:hover {background-color: #0eb408}
+  
+  
+  .buttonanimation:active {
+    background-color: #097e12ad;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonslide  {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .buttonslide  span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonslide  span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonslide :hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonslide :hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .csstestborder {
+    border-left: 3px double green;
+    border-right: 3px double green;
+  }
+
+  .title {
+    font-size:5vw;
+    background-color:black;
+    color:white;
+    padding:30px;
+    text-shadow: 2px 2px 4px gray;
+  }
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 165, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 109, 27);
+}
+
+/* selected link */
+a:active {
+  color: rgb(63, 63, 189);
+}
+
+.buttonsubmit  {
+  border-radius: 4px;
+  background-color: #ff7b00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2.5px;
+}
